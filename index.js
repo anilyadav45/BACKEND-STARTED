@@ -59,3 +59,7 @@ app.post("/mango", (req, res) => {
 app.get("*", (req, res) => {
     res.send(console.log("404 error ! Path doesn't exits"));
 }) 
+
+//While doing any changes in response we have to again restart the whole server from starting so We have to install nodemon
+//installing nodemon globally so that we can use in all project
+//npm install -g nodemon
